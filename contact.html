@@ -1,0 +1,120 @@
+<!doctype html>
+<!-- Uses the HTML5 standard so modern browsers render the page consistently. -->
+
+<html lang="en">
+    <!-- Declares the page language as English for browsers and assistive technology. -->
+
+    <head>
+        <!-- Metadata and resources shared by visitors and browsers, but not shown in the page body. -->
+        <meta charset="UTF-8" />
+        <!-- Ensures accented characters such as "é" display correctly. -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Makes the layout responsive across phones, tablets, and desktop screens. -->
+
+        <title>Auréllia Beauty - Contact</title>
+        <!-- Defines the page title shown in the browser tab and search results. -->
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <!-- Uses the site's favicon as the small browser-tab icon. -->
+
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- Loads the shared stylesheet used to style every page on the site. -->
+    </head>
+
+    <body>
+        <!-- Contains all visible page content. -->
+
+        <!-- Shared site header: introduces the brand and provides primary navigation. -->
+        <header>
+            <h1>Auréllia Beauty</h1>
+            <!-- The site's main heading and primary brand name. -->
+
+            <p>THE ART OF BEAUTIFUL LIVING</p>
+            <!-- Short brand tagline displayed beneath the main heading. -->
+
+            <nav>
+                <!-- Groups the main links so visitors can move between sections of the website. -->
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <!-- The active class identifies Contact as the current page. -->
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Holds the unique content of the Contact page. -->
+
+            <!-- Enquiry form: lets visitors send the business a message. -->
+            <section class="section-container">
+                <h2 class="section-header">Contact Us</h2>
+                <!-- Main heading for the enquiry form. -->
+
+                <form action="">
+                    <!-- The action is a placeholder for a future form-processing endpoint. -->
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <!-- The for attribute links the label to its input for better accessibility. -->
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                    <!-- The email input validates the address and requires a value. -->
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <!-- The textarea captures the visitor's enquiry and requires a value. -->
+
+                    <button type="submit" class="btn form-btn">
+                        Send Message
+                    </button>
+                    <!-- Submitting the form sends the completed enquiry to the configured endpoint. -->
+                </form>
+            </section>
+        </main>
+
+        <!-- Shared footer: presents the brand, quick links, contact details, and copyright notice. -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>Auréllia Beauty</h2>
+                    <p class="footer-tagline">The Art of Beautiful Living.</p>
+                    <p>
+                        Thoughtful beauty and personal-care essentials for
+                        confident, elegant living.
+                    </p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <p>We would love to hear from you!</p>
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:aurelliabeauty@gmail.com">
+                            aurelliabeauty@gmail.com
+                        </a>
+                    </p>
+                    <p><strong>Location:</strong> Accra, Ghana</p>
+                </div>
+            </div>
+
+            <p class="copyright">
+                © 2026 Auréllia Beauty. All Rights Reserved.
+            </p>
+        </footer>
+    </body>
+</html>
