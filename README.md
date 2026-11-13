@@ -75,28 +75,11 @@ First-project/
 
 ## Getting Started
 
-Because the site uses relative paths for its stylesheet, images, video, and page links, it is best to run it through a local web server.
+This is a static website and does not require a build process, package installation, or a backend server.
 
-### Prerequisites
+### Open the Website
 
-- A modern web browser
-- [Python 3](https://www.python.org/) (optional, but recommended for running a local server)
-
-### Run Locally with Python
-
-From the project directory, start Python's built-in HTTP server:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open the following address in your browser:
-
-```text
-http://localhost:8000
-```
-
-You can also open `index.html` directly in a browser, but a local server more accurately represents how the site will behave when hosted.
+Open `index.html` directly in a modern browser, or drag it into the browser window. All stylesheets, images, videos, and page links use relative paths, so the website works directly from the project folder.
 
 ## Customization
 
